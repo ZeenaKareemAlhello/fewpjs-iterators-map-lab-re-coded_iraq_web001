@@ -20,3 +20,4 @@ const titleCased = (tutorials) => {
   )
   return newArray
 }
+titleCased(tutorials)
