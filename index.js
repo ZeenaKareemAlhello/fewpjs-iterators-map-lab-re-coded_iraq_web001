@@ -10,7 +10,7 @@ const tutorials = [
   'what is the difference between event capturing and bubbling?',
   'what is JSONP?'
 ];
-titleCased(tutorials)
+
 const titleCased = (tutorials) => {
   let newArray=[]
   newArray=tutorials.map((item)=>item.replace(/\b[a-z]/g,
@@ -21,4 +21,4 @@ const titleCased = (tutorials) => {
   return newArray
 }
 
-
+console.log(titleCased(tutorials))
